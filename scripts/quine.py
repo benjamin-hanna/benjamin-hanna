@@ -47,13 +47,11 @@ def build(source, output, verified, ext):
         f"```{ext}",
         source.rstrip(),
         "```",
-        "<details>",
         "Output",
         "",
         "```",
         output.rstrip(),
         "```",
-        "</details>",
         END_MARKER,
     ]
 
