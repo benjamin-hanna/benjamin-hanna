@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
   push:
     paths:
-      - "scripts/quine_update.py"
+      - "scripts/quine.py"
 
 permissions:
   contents: write
