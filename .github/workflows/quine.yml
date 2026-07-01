@@ -21,7 +21,7 @@ jobs:
           python-version: "3.x"
 
       - name: Run quine updater
-        run: python3 scripts/quine_update.py
+        run: python3 scripts/quine.py
 
       - name: Commit and push if changed
         run: |
