@@ -4,7 +4,7 @@ import subprocess
 import sys
 import tempfile
 import os
-README_PATH = "README.md"
+README_PATH = "../README.md"
 START_MARKER = "<!--QUINE:START-->"
 END_MARKER = "<!--QUINE:END-->"
 QUINES = [

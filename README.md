@@ -1,5 +1,6 @@
 <!--QUINE:START-->
-Last run: `2026-07-01` — Verified
+### Python
+Last run: `2026-06-30` — Verified
 
 ```py
 s = 's = %r\nprint(s%%s)'
