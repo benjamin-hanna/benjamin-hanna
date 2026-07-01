@@ -66,7 +66,7 @@ def main():
         content = f.read()
 
     if START_MARKER not in content or END_MARKER not in content:
-        print("Markers not found in README.md — aborting.", file=sys.stderr)
+        print("Markers not found in README.md. Aborting.", file=sys.stderr)
         sys.exit(1)
 
     before = content.split(START_MARKER)[0]
