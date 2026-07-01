@@ -45,7 +45,7 @@ Last run: `{today}` — {status}
 {source.rstrip()}
 ```
 <details>
-<summary>Actual output from running it today</summary>
+<summary>Output</summary>
 ```
 {output.rstrip()}
 ```
