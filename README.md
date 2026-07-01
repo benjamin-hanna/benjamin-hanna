@@ -7,7 +7,7 @@ s = 's = %r\nprint(s%%s)'
 print(s%s)
 ```
 <details>
-<summary>Actual output from running it today</summary>
+<summary>Output</summary>
 ```
 s = 's = %r\nprint(s%%s)'
 print(s%s)
