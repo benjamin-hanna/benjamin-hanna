@@ -7,7 +7,6 @@ on:
   push:
     paths:
       - "scripts/quine.py"
-      - "README.md"
 
 permissions:
   contents: write

@@ -1,16 +1,17 @@
-<!--QUINE:START-->
-### Python
-Last run: `2026-07-01` — Verified
-
+<!--START-->
+Last run: `2026-06-30` — Verified
 ```py
-s = 's = %r\nprint(s%%s)'
-print(s%s)
+import sys
+s = 'import sys\ns = %r\nsys.stdout.write(s %% s)\n'
+sys.stdout.write(s % s)
 ```
 <details>
 <summary>Output</summary>
+
 ```
-s = 's = %r\nprint(s%%s)'
-print(s%s)
+import sys
+s = 'import sys\ns = %r\nsys.stdout.write(s %% s)\n'
+sys.stdout.write(s % s)
 ```
 </details>
-<!--QUINE:END-->
+<!--END-->
