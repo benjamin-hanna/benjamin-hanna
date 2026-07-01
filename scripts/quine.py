@@ -39,11 +39,11 @@ def run(ext, source, cmd_template):
 
 def build(source, output, verified, ext):
     time = datetime.date.today().isoformat()
-    status = "Verified" if verified else "Error. Mismatch."
+    status = "Verified." if verified else "Error. Mismatch."
 
     lines = [
         START_MARKER,
-        f"Last run: `{time}` — {status}",
+        f"Last run: `{time}`. {status}",
         f"```{ext}",
         source.rstrip(),
         "```",
