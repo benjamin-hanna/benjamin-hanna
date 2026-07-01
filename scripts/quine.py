@@ -48,7 +48,7 @@ def build(source, output, verified, ext):
         source.rstrip(),
         "```",
         "<details>",
-        "<summary>Output</summary>",
+        "Output",
         "",
         "```",
         output.rstrip(),
