@@ -9,7 +9,6 @@ START_MARKER = "<!--QUINE:START-->"
 END_MARKER = "<!--QUINE:END-->"
 QUINES = [
     (
-        "Python",
         "py",
         's = \'s = %r\\nprint(s%%s)\'\nprint(s%s)\n',
         ["python3", "{path}"]
@@ -35,7 +34,7 @@ def run_quine(name, ext, source, cmd_template):
     verified = output == source
     return output, verified
 def build_section(name, source, output, verified, ext):
-    today = datetime.date.today().isoformat()
+    today = datetime.datetime.now().isoformat()
     status = "Verified" if verified else "Error. Mismatch."
     return f"""{START_MARKER}
 ### {name}
