@@ -8,7 +8,7 @@ Other Tools: Linux, OpenBSD
 ```
 
 <!--START-->
-Last run: `2026-09-30`. Verified.
+Last run: `2026-10-01`. Verified.
 ```py
 import sys
 s = 'import sys\ns = %r\nsys.stdout.write(s %% s)\n'
